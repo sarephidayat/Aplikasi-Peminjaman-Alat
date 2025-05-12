@@ -1,54 +1,35 @@
 # Aplikasi Peminjaman ALat
-Aplikasi Inventori Barang dengan Java Berbasis Desktop.
+Aplikasi Peminjaman Alat untuk Laboratorium Fakultas Sains dan Teknologi Universitas Islam Negeri Walisongo yang berbasis Dekstop!
 
 # Versi
 Versi yang saya gunakan untuk membuat aplikasi ini adalah:
 
-- IDE Apache NetBeans 12.1
-- Java 11
+- IDE Apache NetBeans 23
+- Java versi 23
 - MySQL 8.0.21
 
 # Konfigurasi
-Untuk menggunakan aplikasi ini, silahkan setting databasenya terlebih dahulu. Buka project di Apache NetBeans - **inventori_barang** > **Source Packages** > **inventori_barang**
+Untuk menggunakan aplikasi ini, silahkan import databasenya terlebih dahulu. Buka project di Apache NetBeans - **Aplikasi-Peminjaman-ALat** > **Source Packages** > **UAS**
 kemudian ubah file **koneksi.java** dan sesuaikan dengan yang Anda gunakan, seperti berikut ini:
 
-- connURL = URL koneksi yang terhubung ke database, contoh jika nama databasenya inventori maka URLnya menjadi "jdbc:mysql://localhost:3306/inventori?autoReconnect=true&useSSL=false"
-                    + "&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"
+- koneksi = URL koneksi yang terhubung ke database, contoh jika nama databasenya inventori maka URLnya menjadi koneksi = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_peminjamanalat", "root", "");
 - user = nama user di database
 - password = password untuk user di database
 
-Default username dan password yang digunakan untuk login : 
-- Username : **rinaldi**
-- Password : **rinaldipratama.com**
+Default username dan password yang digunakan untuk login sebagai admin : 
+- Username : **32089000647**
+- Password : **32089000647**
 
-# Fitur Aplikasi
-Adapun beberapa fitur yang tersedia pada aplikasi ini adalah sebagai berikut:
-
-- Kelola data master berupa:
-  - Supplier
-  - Pelanggan
-  - Pegawai
-  - Barang
-  - Kategori Barang
-- Transaksi Barang Masuk
-- Transaksi Barang Keluar
-- Cetak Laporan:
-  - Persediaan Barang
-  - Barang Masuk
-  - Barang Keluar
-- Ubah nama, username, status dan password
+Default username dan password yang digunakan untuk login sebagai user : 
+- Username : **23080160032**
+- Password : **sarepganteng**
   
-Aplikasi ini merupakan pengembangan dari Blog <a href="https://muhamadyusufppn.blogspot.com/p/aplikasi-inventori-barang-dengan-java.html" target="_blank">Muhamad Yusuf</a>
-dengan penambahan fitur enkripsi password dengan metode Bcrypt.
+# Fitur Aplikasi
+Adapun beberapa fitur yang tersedia pada aplikasi ini bisa anda cek pada link berikut ini;
+https://drive.google.com/file/d/1xDsHYUl3dtElPTroLJKrrfRkqElpqcof/view?usp=sharing
+  
+Aplikasi ini dibuat untuk memenuhi tugas akhir mata kuliah **pemrograman berorientasi objek**
 
 # Kontributor
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/sarephidayat"><img src="https://avatars0.githubusercontent.com/u/4905323?s=460&v=4" width="120px;" alt=""/><br /><sub><b>Muhammad Syarifudin Hidayat</b></sub></a><br /><a href="#content-muhamadyusuf" title="Content">🖋</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/rinaldipratama"><img src="https://avatars0.githubusercontent.com/u/71593600?v=4" width="120px;" alt=""/><br /><sub><b>Itsna Nur Hamida</b></sub></a><br /><a href="#content-rinaldipratama" title="Content">🖋</a>
-    </td>
-  </tr>
-</table>
+<table> <tr> <td align="center"> <a href="https://github.com/sarephidayat"> <img src="https://raw.githubusercontent.com/sarephidayat/Aplikasi-Peminjaman-Alat/main/src/image/MetaStudioPhoto-122%20-%20Copy.jpg?s=460&v=4" width="120px;" alt="Foto Muhammad Syarifudin Hidayat"/><br /> <sub><b>Muhammad Syarifudin Hidayat</b></sub> </a><br /> <a href="#content-muhamadyusuf" title="Content">🖋</a> </td> <td align="center"> <a href="https://github.com/itsna05"> <img src="https://raw.githubusercontent.com/sarephidayat/Aplikasi-Peminjaman-Alat/main/src/itsna-nur-hamida?v=4" width="120px;" alt="Itsna Nur Hamida"/><br /> <sub><b>Rinaldi Pratama</b></sub> </a><br /> <a href="#content-rinaldipratama" title="Content">🖋</a> </td> </tr> </table>
+
