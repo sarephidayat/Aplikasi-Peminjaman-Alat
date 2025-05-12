@@ -9,7 +9,7 @@ Versi yang saya gunakan untuk membuat aplikasi ini adalah:
 - MySQL 8.0.21
 
 # Konfigurasi
-Untuk menggunakan aplikasi ini, silahkan import databasenya terlebih dahulu. Buka project di Apache NetBeans - **Aplikasi-Peminjaman-ALat** > **Source Packages** > **UAS**
+Untuk menggunakan aplikasi ini, silahkan import databasenya(pilih yang db_peminjaman_alat(2)) terlebih dahulu. Buka project di Apache NetBeans - **Aplikasi-Peminjaman-ALat** > **Source Packages** > **UAS**
 kemudian ubah file **koneksi.java** dan sesuaikan dengan yang Anda gunakan, seperti berikut ini:
 
 - koneksi = URL koneksi yang terhubung ke database, contoh jika nama databasenya inventori maka URLnya menjadi koneksi = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_peminjamanalat", "root", "");
